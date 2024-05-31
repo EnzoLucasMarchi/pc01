@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    background-color: #34495E;
+    height: 5rem;
+    width: 360px;
+    max-width: 90%;
+    border-radius: 8px;
+    margin: 1.5%;
+}
+
+.icon-container {
+   width: 60px;
+   height: 60px;
+    border-radius: 8px;
+    margin: .5rem;
+    margin-left: .7rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+img{
+    /*display: none;*/
+    width: auto;
+    height: auto;
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title{
+    font-size: 100%;
+    margin-left: 1rem;
+}

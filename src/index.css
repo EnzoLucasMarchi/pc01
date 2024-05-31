@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+
+
+.page{
+  display: flex;
+  background-color: #273746;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-page, .right-page{
+  flex:1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+/*body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+*/
